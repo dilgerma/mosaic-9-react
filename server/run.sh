@@ -1,2 +1,2 @@
 #!/bin/bash
-nodemon src/server.js
+PORT=9090 nodemon src/server.js

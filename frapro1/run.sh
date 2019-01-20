@@ -1,4 +1,4 @@
 
 #!/bin/bash
-webpack -p
-nodemon src/fragment-server/server.js
+npx webpack -p
+PORT=9091 nodemon src/server.js

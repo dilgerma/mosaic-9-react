@@ -1,15 +1,13 @@
 <html>
+
 <head>
-    <script type="fragment" src="http://assets.domain.com"></script>
 </head>
+
 <body>
-   <div id="navi">
-       navi
-   </div>
-   <div id="root">
-        root
-    </div>
-    <fragment src="http://localhost:2000" async></fragment>   
- <fragment src="http://localhost:3000" async></fragment>
+    <div id="navi"></div>
+    <div id="body"></div>
+    <fragment src="http://localhost:9091?node_id=navi"></fragment>
+    <fragment src="http://localhost:9092?node_id=body"></fragment>
 </body>
+
 </html>

@@ -1,0 +1,2 @@
+home: Path("/") -> modPath(".*","/index") -> "http://127.0.0.1:9090";
+contact: Path("/contact")->modPath(".*","/contact")->"http://127.0.0.1:9090"

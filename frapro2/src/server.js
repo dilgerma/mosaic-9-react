@@ -8,7 +8,6 @@ const server = http.createServer((res, resp) => {
     const pathName = url.parse(res.url).pathname
     const jsHeader = { 'Content-Type': 'application/javascript' }
 
-    console.log(pathName)
     switch (pathName) {
         case '/bundle.js':
             resp.writeHead(200, jsHeader)
@@ -16,7 +15,7 @@ const server = http.createServer((res, resp) => {
         default:
             resp.writeHead(200, { 
                 'Content-Type': 'text/html',
-                'Link': '<http://localhost:2000/bundle.js>; rel="fragment-script"'
+                'Link': '<http://localhost:9092/bundle.js>; rel="fragment-script"'
             })
             return resp.end('')
     }

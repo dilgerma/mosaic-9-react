@@ -6,9 +6,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <a href="Link1">Link1</a>
-        <a href="Link2">Link2</a>
-        <a href="Link3">Link3</a>
+        <a href="/">Home</a>
+        <a href="/contact">Kontakt</a>
       </div>
     );
   }
