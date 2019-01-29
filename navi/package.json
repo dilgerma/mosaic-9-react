@@ -8,7 +8,7 @@
     "react-scripts": "2.1.1"
   },
   "scripts": {
-    "bundle" : "npx webpack -p",
+    "bundle": "npx webpack -p",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
