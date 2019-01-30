@@ -1,0 +1,20 @@
+version: "3.3"
+services:
+  skipper:
+    image: mosaic9/skipper
+    ports:
+    - 80:80
+  tailor:
+    image: mosaic9/tailor
+  navi:
+    image: mosaic9/navi
+    ports:
+    - 9092:9092
+  contact:
+    image: mosaic9/contact
+    ports:
+    - 9091:9091
+  catalog:
+    image: mosaic9/catalog
+    ports:
+    - 9093:9093

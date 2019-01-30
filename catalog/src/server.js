@@ -1,8 +1,6 @@
 const http = require('http'),
     url = require('url'),
-    fs = require('fs'),
-    serveStatic = require('serve-static');
-
+    fs = require('fs');
 
 const server = http.createServer((res, resp) => {
 
