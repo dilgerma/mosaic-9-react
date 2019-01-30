@@ -1,0 +1,2 @@
+home: Path("/") -> modPath(".*","/index") -> "http://tailor:9090";
+contact: Path("/contact")->modPath(".*","/contact")->"http://tailor:9090"
