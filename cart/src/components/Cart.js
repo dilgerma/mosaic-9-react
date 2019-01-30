@@ -8,8 +8,12 @@ export class Cart extends Component {
         this.state = {items: [{name:"typescipt","price":"9.99"}]}
         this.removeItem = this.removeItem.bind(this);
         this.addItem = this.addItem.bind(this);
-    }
 
+        props.eev.on('cart-item-added', function (item) {
+            this.addItem(item);
+        });
+    }
+    
     removeItem(removeItem) {
         this.setState({items: this.state.items.filter(function(item){
             return item != removeItem

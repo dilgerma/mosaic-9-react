@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { Cart } from './components/Cart'
-import {Eev} from 'eev'
+import Eev from 'eev'
 
 class App extends Component {
 

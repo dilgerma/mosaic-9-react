@@ -18,3 +18,7 @@ services:
     image: mosaic9/catalog
     ports:
     - 9093:9093
+  cart:
+    image: mosaic9/cart
+    ports:
+    - 9094:9094
