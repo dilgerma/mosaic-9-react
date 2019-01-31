@@ -1,8 +1,10 @@
 {
-  "name": "frapro3",
+  "name": "catalog",
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "bundle": " npm run build",
+    "docker-build": "docker build -t mosaic9/catalog .",
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"

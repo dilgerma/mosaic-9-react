@@ -1,0 +1,11 @@
+{
+  "name": "skipper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docker-build": "docker build  -t mosaic9/skipper ."
+  },
+  "author": "",
+  "license": "ISC"
+}

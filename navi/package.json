@@ -1,5 +1,5 @@
 {
-  "name": "frapro2",
+  "name": "navi",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,7 +8,8 @@
     "react-scripts": "2.1.1"
   },
   "scripts": {
-    "bundle": "npx webpack -p",
+    "bundle": "rimraf build && npx webpack -p",
+    "docker-build": "docker build -t mosaic9/navi .",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -32,6 +33,7 @@
     "css-loader": "^2.0.0",
     "nodemon": "^1.18.7",
     "react-svg-loader": "^2.1.0",
+    "rimraf": "^2.6.3",
     "webpack-cli": "^3.2.1"
   }
 }
