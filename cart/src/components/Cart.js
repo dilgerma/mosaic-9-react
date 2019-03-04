@@ -40,7 +40,7 @@ export class Cart extends Component {
       </li>
     });
     return (
-      <div className="well">
+      <div className="well" title="ReactJS">
                 <div>Warenkorb</div>
                 <ul>
                 {listItems}

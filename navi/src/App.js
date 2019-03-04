@@ -5,7 +5,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <nav>
+      <nav title="React">
           <ul className="nav nav-pills pull-right">
             <li href="/"><a href="/">Home</a></li>
             <li><a href="#">About</a></li>

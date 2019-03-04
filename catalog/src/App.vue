@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" title="VueJS">
     <Articles v-bind:eev="eev"/>
   </div>
 </template>

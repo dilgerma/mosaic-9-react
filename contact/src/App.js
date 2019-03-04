@@ -5,7 +5,7 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="row marketing">
+      <div className="row marketing" title="React">
         <div className="col-lg-6">
           <h4>Contact</h4>
           <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>

@@ -49,3 +49,13 @@ Add the following entries to yours hostsfile, if you start each services manuall
 127.0.0.1 navi
 127.0.0.1 contact
 ```
+
+## Dynamic Template Loading based on Predicates
+
+Skipper is capable of changing the template loaded based on _Predicates_.
+One Predicate is a HTTP Header, that might e.g. be set by an Apache based on some simple Rules.
+
+```
+home_variant: Header("variant", "summer-sale") && Path("/") -> modPath(".*","/index_variant") -> "http://tailor:9090";
+```
+Set the HTTP Header *variant=summer-sale" and see the summer sale starting.

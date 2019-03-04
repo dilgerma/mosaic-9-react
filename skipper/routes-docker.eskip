@@ -1,2 +1,3 @@
 home: Path("/") -> modPath(".*","/index") -> "http://tailor:9090";
+home_variant: Header("variant", "summer-sale") && Path("/") -> modPath(".*","/index_variant") -> "http://tailor:9090";
 contact: Path("/contact")->modPath(".*","/contact")->"http://tailor:9090"
