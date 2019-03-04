@@ -59,3 +59,12 @@ One Predicate is a HTTP Header, that might e.g. be set by an Apache based on som
 home_variant: Header("variant", "summer-sale") && Path("/") -> modPath(".*","/index_variant") -> "http://tailor:9090";
 ```
 Set the HTTP Header *variant=summer-sale" and see the summer sale starting.
+
+## Monitoring
+
+To see it in action, there is some crucial monitoring in place.
+
+Prometheus Server scraping Skipper:
+```
+http://localhost:3001
+```
