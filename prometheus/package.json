@@ -1,9 +1,0 @@
-{
-  "name": "prometheus",
-  "version": "1.0.0",
-  "description": "",
-  "scripts": {
-    "docker-build": "docker build  -t mosaic9/prometheus ."
-  },
-  "license": "ISC"
-}

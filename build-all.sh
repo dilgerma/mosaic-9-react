@@ -4,4 +4,3 @@ cd catalog && npm install && npm run bundle && cd ..
 cd navi && npm install && npm run bundle && cd ..
 cd contact && npm install && npm run bundle && cd ..
 cd cart && npm install && npm run bundle && cd ..
-cd prometheus && npm run docker-build && cd ..

@@ -22,11 +22,3 @@ services:
     image: mosaic9/cart
     ports:
     - 9094:9094
-  prometheus:
-    image: mosaic9/prometheus
-    ports:
-    - 3001:9090
-  grafana:
-    image: grafana/grafana
-    ports:
-    - 3002:3000

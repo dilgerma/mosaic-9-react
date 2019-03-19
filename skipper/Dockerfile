@@ -5,5 +5,5 @@ LABEL app=skipper
 
 ADD . /skipper
 WORKDIR /skipper
-ENTRYPOINT ["skipper", "-address",":80", "-metrics-flavour=prometheus", "-routes-file", "/skipper/routes-docker.eskip"]
+ENTRYPOINT ["skipper", "-address",":80", "-routes-file", "/skipper/routes-docker.eskip"]
 
